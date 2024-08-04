@@ -1,0 +1,606 @@
+body {
+  line-height: 1.7;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  color: #424242;
+  -webkit-font-smoothing: antialiased;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  min-height: 67.78px;
+  color: rgb(66, 66, 66);
+  box-shadow: 2px 1px 2px #eee;
+}
+
+.nav_bar {
+  max-width: 1100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.zorodha_logo img {
+  max-height: 17px;
+}
+
+.zorodha_logo span{
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.zorodha_logo {
+  width: 39%;
+  height: 65px;
+}
+
+.nav_list {
+  height: 65px;
+  width: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+}
+
+.nav_list ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav_list ul li a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #666;
+  font-size: 0.9rem;
+  padding: 20px;
+  margin: 0px 4px;
+}
+
+.nav_list img {
+  padding: 20px 0px 20px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.three_bars {
+  width: 18px;
+  height: 18px;
+}
+
+.homepage .section_padding {
+  padding: 0px 20px 120px 20px;
+}
+
+.first_section {
+  margin-top: 10vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.first_section .loading {
+  margin-bottom: 60px;
+  max-height: 45vh;
+}
+
+.loading {
+  max-width: 100%;
+}
+
+.first_section h1 {
+  margin: 0px;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 2.75rem;
+}
+
+.first_section h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 10px 0px 20px 0px;
+}
+
+.first_section a {
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  background-color: #387ed1;
+  border-radius: 3px;
+  margin-top: 25px;
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+.ecosystem_info .text_info {
+  text-align: left;
+}
+
+.ecosystem_info .text_info h4 {
+  margin: 0px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.ecosystem_info .text_info h2 {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.ecosystem_info .text_info p {
+  margin: 5px 0px 32px 0px;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.pic_chart p {
+  line-height: 1.8;
+  font-size: 1rem;
+  margin: 15px 0px;
+}
+
+.text_info a,
+.pic_chart p a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.ecosystem_info .pic_chart p :nth-child(2) {
+  margin-left: 24px;
+}
+
+.ecosystem_info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text_info {
+  width: 39%;
+}
+
+
+.pic_chart {
+  width: 56.666%;
+}
+
+.pic_chart img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.press_strip {
+  margin-top: 60px;
+  height: 48px;
+  text-align: center;
+}
+
+.press_strip img{
+  max-width: 100%;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text_info_2 {
+  width: 39%;
+  text-align: left;
+}
+
+.text_info_2 h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0px 0px 20px 0px;
+}
+
+.pic_chart_2 {
+  width: 56%;
+  text-align: start;
+}
+
+.pricing_box {
+  display: inline-block;
+  position: relative;
+}
+
+.pricing_1 {
+  display: inline-block;
+  width: 120px;
+  position: relative;
+  top: 22px;
+}
+
+.pricing_box p {
+  display: inline-block;
+  font-size: 0.625rem;
+  margin: 0;
+  color: #666;
+  line-height: 1rem;
+  position: relative;
+}
+
+.pricing_box:nth-child(1) p {
+  left: -25px;
+}
+.pricing_box:nth-child(2) p {
+  left: -25px;
+}
+.pricing_box:nth-child(3) p {
+  left: -9px;
+}
+
+.pricing_link a {
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 500;
+}
+
+.pricing_link {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.market_edu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pic_chart_3 {
+  cursor: pointer;
+  width: 39%;
+}
+
+.pic_chart_3 img {
+  width: 100%;
+}
+
+.text_info_3 {
+  width: 48%;
+  text-align: start;
+}
+
+.text_info_3 h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.text_info_3 p {
+  margin: 15px 0px;
+}
+
+.text_info_3 :nth-child(4) {
+  margin-top: 30px;
+}
+
+.text_info_3 a {
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 500;
+}
+
+
+.mini_container{
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+
+.open_zorodha_account{
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+}
+
+.open_zorodha_account h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.open_zorodha_account p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 15px 0px;
+}
+
+.open_zorodha_account a {
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  background-color: #387ed1;
+  border-radius: 3px;
+  margin-top: 25px;
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+
+footer{
+  box-sizing: border-box;
+  border-top: 1px solid #eee;
+  padding: 30px 0px 5px 0px;
+  background-color: #fbfbfb;
+}
+
+
+.footer_1{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer .footer_1 .media_links{
+  max-width: 22%;
+  text-align: left;
+}
+
+
+.footer_1 .media_links .zorodha_logo_2{
+  height: 28px;
+  padding: 10px 0px;
+}
+
+.footer_1 .media_links .zorodha_logo_2 img {
+  max-height: 20px;
+  width: auto;
+}
+
+.footer_1 :nth-child(1) p{
+  font-size: .8rem;
+  margin: 0px;
+  color: #666;
+}
+
+
+.footer_1 .media_links ul{
+  margin: 15px 0px 0px 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+}
+
+
+.media_links >ul >li{
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+
+.media_links ul li a{
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2;
+}
+
+
+.footer_1 .media_links .top_border{
+  border-top: 1px solid #eee;
+  margin: 8px 0px 0px 0px;
+  padding-top: 10px;
+}
+
+.footer_1 .media_links .nav_part_2 .nav_head{
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.media_links .nav_part_2 a{
+  font-size: 1rem;
+  text-decoration: none;
+  color: #666;
+}
+
+.footer_1 .media_links .nav_part_2{
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+
+}
+
+.footer_1 .media_links .nav_part_2{
+  margin: 0px;
+}
+
+
+.footer_2{
+  margin-top: 40px;
+}
+
+footer .footer_2{
+  text-align: left;
+}
+
+footer .footer_2 p{
+  color: #9b9b9b;
+  font-size: .65rem;
+  margin: 0px 0px 10px 0px;
+  width: 100%;
+  line-height: 1.8;
+}
+
+footer .footer_2 p a{
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 500;
+}
+
+footer .container .footer_3 .no_margin_padding{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+footer .container .footer_3 .no_margin_padding li{
+  display: inline-block;
+  list-style: none;
+  font-size: .8rem;
+  margin-right: 20px;
+  line-height: 3.5;
+}
+
+footer .container .footer_3 .no_margin_padding li a{
+  text-decoration: none;
+  color: #848484;
+  font-size: .75rem;
+}
+
+.hover_color_black:hover{
+  color: rgba(0, 0, 0, 0.879);
+}
+
+
+footer .container .footer_3 .no_margin_padding li a:hover{
+  color: #387ed1;
+}
+
+.media_links ul li a:hover{
+  color: #387ed1;
+}
+
+
+.black_button:hover{
+  background-color: rgba(0, 0, 0, 0.855);
+}
+
+.second_section .press_strip img:hover{
+  opacity: .8;
+  cursor: pointer;
+}
+
+.nav_bar .nav_list a:hover{
+  color: #387ed1;
+}
+
+
+@media screen and (max-width:1100px){
+
+  .nav_bar{
+    padding: 0px 20px;
+  }
+
+  footer .add_padding{
+    padding: 0px 20px;
+  }
+
+}
+
+
+@media screen and (max-width:960px) {
+
+  .nav_bar .nav_list ul{
+    display: none;
+  }
+  .nav_bar .zorodha_logo img{
+    width: 150px !important;
+    max-height: 100px;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  .ecosystem_info{
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+  .text_info{
+    width: 100%;
+  }
+  .pic_chart{
+    width: 100%;
+  }
+
+  .pricing {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+  .text_info_2 {
+    width: 100%;
+  }
+  .pic_chart_2 {
+    width: 100%;
+    display: flex;
+  }
+
+  .market_edu{
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+  .pic_chart_3 {
+    margin: auto;
+    width: 100%;
+  }
+  .text_info_3{
+    width: 100%;
+  }
+  .pic_chart_3 img {
+    max-width: 477px;
+  }
+
+  footer .footer_1 {
+    flex-direction: column;
+  }
+  footer .footer_1 .media_links
+  {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  footer .footer_1 :nth-child(4){
+    margin-bottom: 0px;
+  }
+}
+
+
+@media screen and (max-width:660px){
+  .pic_chart_2{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:549px){
+  .nav_bar .zorodha_logo img{
+    max-width: 110px ;
+  }
+}
